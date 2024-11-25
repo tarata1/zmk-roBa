@@ -1,4 +1,4 @@
-## bluetooth対応改造版keyball
+## roBa bluetooth対応改造版keyball39
 - フォームウェアにZMKを使用
 - 5個のbluetooth接続プロファイルを保持
 - 有線接続にも対応。
@@ -34,3 +34,6 @@
 - 書き込みが完了したら、キーマップが変更されていることを確認してください。
 - 左手側の書き換えは不要です。
 - もしBluetoothの接続に不調があれば、生成されたfirmware.zip内に格納されている`settings_reset-seeeduino_xiao_ble-zmk.uf2`を左右両方に書き込んでください。初期化されますので、再度フォームウエアの書き込みをを願いします。その場合は、左手→`roBa_L-seeeduino_xiao_ble-zmk.uf2`、右手→`roBa_R-seeeduino_xiao_ble-zmk.uf2`の書き込みを実施してください。
+
+## その他
+- [ビルドガイド](https://github.com/kumamuk-git/roBa/blob/main/doc/v2/buildguide_v2.md))にもキーマップ変更方法が記載されております。
